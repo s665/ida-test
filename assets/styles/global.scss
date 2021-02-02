@@ -1,0 +1,29 @@
+@import "variables";
+@import "./mixin/mixin";
+html {
+  font-family: 'PT Sans',
+  Roboto,
+  'Helvetica Neue',
+  Arial,
+  sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  line-height: 18px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1260px;
+}
+.mt-1 {
+  margin-top: 32px;
+}
+.mt-2 {
+  margin-top: 24px;
+}
+.mt-3 {
+  margin-top: 16px;
+}
